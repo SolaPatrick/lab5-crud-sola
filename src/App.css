@@ -1,0 +1,64 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form h2 {
+  width: 100%;
+  margin: 0;
+}
+
+input {
+  padding: 8px;
+  flex: 1;
+  min-width: 150px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 2px solid #8bc34a;
+  border-radius: 8px;
+  padding: 12px;
+  background: #f6fff0;
+}
+
+.card.thirsty {
+  border-color: #e65100;
+  background: #fff3e0;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}

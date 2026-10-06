@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Snake Plant",
+    "location": "Living room",
+    "wateringEveryDays": 14,
+    "lastWatered": "2026-09-25"
+  },
+  {
+    "id": 2,
+    "name": "Pothos",
+    "location": "Bedroom",
+    "wateringEveryDays": 7,
+    "lastWatered": "2026-09-20"
+  },
+  {
+    "id": 3,
+    "name": "Aloe Vera",
+    "location": "Balcony",
+    "wateringEveryDays": 10,
+    "lastWatered": "2026-09-29"
+  }
+]
